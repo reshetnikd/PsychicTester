@@ -10,7 +10,6 @@
 		35149FAF24C9C3B300AC9F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35149FAE24C9C3B300AC9F06 /* AppDelegate.swift */; };
 		35149FB124C9C3B300AC9F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35149FB024C9C3B300AC9F06 /* SceneDelegate.swift */; };
 		35149FB324C9C3B300AC9F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35149FB224C9C3B300AC9F06 /* ViewController.swift */; };
-		35149FB624C9C3B300AC9F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35149FB424C9C3B300AC9F06 /* Main.storyboard */; };
 		35149FB824C9C3B400AC9F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35149FB724C9C3B400AC9F06 /* Assets.xcassets */; };
 		35149FBB24C9C3B400AC9F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35149FB924C9C3B400AC9F06 /* LaunchScreen.storyboard */; };
 		35149FC024C9C3B400AC9F06 /* PsychicTester WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 35149FBF24C9C3B400AC9F06 /* PsychicTester WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -23,6 +22,8 @@
 		35149FE824C9C57A00AC9F06 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35149FE724C9C57A00AC9F06 /* CardViewController.swift */; };
 		35149FEC24C9C62500AC9F06 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35149FEA24C9C62500AC9F06 /* PhantomFromSpace.mp3 */; };
 		35149FED24C9C62500AC9F06 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35149FEB24C9C62500AC9F06 /* README.txt */; };
+		35149FEF24D03E3A00AC9F06 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35149FEE24D03E3A00AC9F06 /* GradientView.swift */; };
+		35149FF124D04CDB00AC9F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35149FF024D04CDB00AC9F06 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +73,6 @@
 		35149FAE24C9C3B300AC9F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35149FB024C9C3B300AC9F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		35149FB224C9C3B300AC9F06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		35149FB524C9C3B300AC9F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35149FB724C9C3B400AC9F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35149FBA24C9C3B400AC9F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35149FBC24C9C3B400AC9F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +88,8 @@
 		35149FE724C9C57A00AC9F06 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		35149FEA24C9C62500AC9F06 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
 		35149FEB24C9C62500AC9F06 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		35149FEE24D03E3A00AC9F06 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		35149FF024D04CDB00AC9F06 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +138,8 @@
 				35149FB024C9C3B300AC9F06 /* SceneDelegate.swift */,
 				35149FB224C9C3B300AC9F06 /* ViewController.swift */,
 				35149FE724C9C57A00AC9F06 /* CardViewController.swift */,
-				35149FB424C9C3B300AC9F06 /* Main.storyboard */,
+				35149FEE24D03E3A00AC9F06 /* GradientView.swift */,
+				35149FF024D04CDB00AC9F06 /* Main.storyboard */,
 				35149FB724C9C3B400AC9F06 /* Assets.xcassets */,
 				35149FB924C9C3B400AC9F06 /* LaunchScreen.storyboard */,
 				35149FBC24C9C3B400AC9F06 /* Info.plist */,
@@ -277,9 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				35149FBB24C9C3B400AC9F06 /* LaunchScreen.storyboard in Resources */,
+				35149FF124D04CDB00AC9F06 /* Main.storyboard in Resources */,
 				35149FEC24C9C62500AC9F06 /* PhantomFromSpace.mp3 in Resources */,
 				35149FB824C9C3B400AC9F06 /* Assets.xcassets in Resources */,
-				35149FB624C9C3B300AC9F06 /* Main.storyboard in Resources */,
 				35149FED24C9C62500AC9F06 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +313,7 @@
 			files = (
 				35149FE824C9C57A00AC9F06 /* CardViewController.swift in Sources */,
 				35149FB324C9C3B300AC9F06 /* ViewController.swift in Sources */,
+				35149FEF24D03E3A00AC9F06 /* GradientView.swift in Sources */,
 				35149FAF24C9C3B300AC9F06 /* AppDelegate.swift in Sources */,
 				35149FB124C9C3B300AC9F06 /* SceneDelegate.swift in Sources */,
 			);
@@ -340,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35149FB424C9C3B300AC9F06 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35149FB524C9C3B300AC9F06 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		35149FB924C9C3B400AC9F06 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
