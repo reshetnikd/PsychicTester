@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var cardContainer: UIView!
     @IBOutlet weak var gradientView: GradientView!
     
     var allCards = [CardViewController]()
+    var music: AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         createParticles()
         loadCards()
+        playMusic()
         
         view.backgroundColor = UIColor.red
         
@@ -122,6 +125,16 @@ class ViewController: UIViewController {
         particalEmitter.emitterCells = [cell]
         
         gradientView.layer.addSublayer(particalEmitter)
+    }
+    
+    func playMusic() {
+        if let musicURL = Bundle.main.url(forResource: "PhantomFromSpace", withExtension: "mp3") {
+            if let audioPlayer = try? AVAudioPlayer(contentsOf: musicURL) {
+                music = audioPlayer
+                music.numberOfLoops = -1
+                music.play()
+            }
+        }
     }
 
 
